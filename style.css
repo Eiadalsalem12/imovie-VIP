@@ -1,1 +1,52 @@
+body{
+background-color: antiquewhite;
+}
 
+.div1 h1{
+  padding: 100px 15px 60px 8px ;
+  font-size: large ;
+  align-items: center;
+  border-top: 2px solid yellow ;
+  border-bottom: 2px solid yellow ;
+}
+
+
+header {
+  width: 100%;
+  height: 100px;
+  background-color: darkblue;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav1 {
+  margin-right: 50px;
+}
+
+.nav1 h1 {
+  font-size: 50px;
+  font-weight: 700;
+  color: #ffffffff
+}
+
+.nav2 {
+  margin-left: 25px;
+}
+
+.nav2 ul {
+  list-style-type: none;
+  display: inline-flex;
+}
+
+.nav2 ul li {
+  margin-left: 25px;
+  color: #ffffffff;
+  font-size: 18px;
+}
+footer{
+    background-color: darkslategrey;
+    height: 80px;
+    width: auto;
+}
